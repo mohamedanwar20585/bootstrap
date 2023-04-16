@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --color1: #F4511E;
+    --color2: #FFFFFF;
+    --color3: #DDDDDD;
+    --color4: #888888;
+}
+body {
+    position: relative;
+}
+.font-lato {
+    font-family: 'Montserrat', sans-serif;
+}
+.pfont {
+    font-size: 19px !important;
+    line-height: 1.375em !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+}
+.navbar {
+    background-color: var(--color1)!important;
+    padding: 0 20px!important;
+    font-family: 'Montserrat', sans-serif !important;
+    z-index: 50;
+}
+.navbar ul li a:hover, .navbar ul li a:active, .nav-link.active{
+    background-color: var(--color2)!important;
+    color: var(--color1)!important;
+}
+.navbar-toggler{
+    border: 1px solid var(--color1) !important;
+}
+.navbar-toggler:hover{
+    border: 1px solid var(--color3) !important;
+    background-color:var(--color3) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+header {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: var(--color1);
+    color: var(--color2);
+    padding-top:150px !important;
+    
+    
+}
+header h1 {
+    font-size: 63px;
+    line-height: 69px;
+
+}
+header h4 {
+    font-size: 21px;
+    line-height: 38px;
+}
+.fa-signal {
+    font-size: 200px;
+    color: var(--color1);
+}
+.fa-earth-americas {
+    font-size: 200px;
+    color: var(--color1);
+}
+.btn-outline-light{
+    width:fit-content;
+    padding: 10px;
+}
+#about h3 {
+    font-size: 24px !important;
+    line-height: 26px !important;
+}
+#services .fa-solid {
+    color: var(--color1);
+    font-size: 50px;
+    margin: 25px 0;
+}
+#portfolio .fa-solid, footer .fa-solid  {
+    font-size: 30px;
+    color: var(--color1);
+}
+.carousel-indicators button{
+    width:10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    border: 1px solid var(--color1) !important;
+    background-color: transparent !important;
+} 
+.carousel-control-next, .carousel-control-prev, .carousel-indicators [data-bs-target] {
+    opacity: 1 !important;
+}
+.carousel-indicators .active {
+    background-color: var(--color1) !important;
+} 
+.card-header {
+    color: var(--color2) !important;
+    background-color: var(--color1) !important;
+    border-bottom: 1px solid var(--color1) !important;
+    
+}
+.card-header h4{
+    font-size: 40px !important;
+    
+}
+#pricing .card {
+    border-color: var(--color1)!important; 
+}
+#pricing .btn {
+    color: var(--color2) !important;
+    background-color: var(--color1) !important;
+    border-color: var(--color1) !important;
+}
+#pricing .btn:hover {
+    color: var(--color1) !important;
+    background-color: var(--color2) !important;
+    border-color: var(--color1) !important;
+}
+#pricing .card:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important;
+}
+#contact .btn {
+    background-color: var(--color2) !important;
+    color: #000 !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    border-color: var(--color3) !important;
+}
+#contact .btn:hover {
+    background-color: var(--color3) !important;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-collapse {
+        border-top: 1px solid var(--color2)!important;
+    }
+    .input-group {
+        width: 100% !important;
+    }
+
+}
+@media screen and (max-width: 690px) {
+    header h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+}
