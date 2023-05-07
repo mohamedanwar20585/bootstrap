@@ -141,6 +141,13 @@ header h4 {
     background-color: var(--color3) !important;
 }
 
+@media screen and (max-width: 835px) {
+    header#headertop  h1{
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0 !important;
+    }
+}
 @media screen and (max-width: 767px) {
     .navbar-collapse {
         border-top: 1px solid var(--color2)!important;
@@ -148,12 +155,41 @@ header h4 {
     .input-group {
         width: 100% !important;
     }
+    .navbar {
+        padding: 0 !important;
+    }
+    .navbar .container-fluid {
+        padding: 0 !important;
+        margin: 0;
+    }
+    .navbar #mog{
+        padding-left: 10px !important;
+    }
+     .nav-link {
+        padding-left: 45px;
+    }
+    .card-group .card {
+        margin-right: 10px;
 
+    }
 }
-@media screen and (max-width: 690px) {
-    header h1 {
-        font-size: 50px;
-        line-height: 60px;
+@media screen and (max-width: 610px) {
+    header#headertop  h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0 !important;
     }
 
+}
+@media screen and (max-width: 575px) {
+    .card-group .card {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 503px) {
+    header#headertop  h1{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 !important;
+    }
 }
