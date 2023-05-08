@@ -166,8 +166,8 @@ header h4 {
         padding-left: 10px !important;
     }
      .nav-link {
-        padding-left: 45px;
-        padding-right: 40px;
+        padding:0 40px !important;
+        
 
     }
     .card-group .card {
