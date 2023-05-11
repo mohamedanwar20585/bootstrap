@@ -166,7 +166,8 @@ header h4 {
         padding-left: 10px !important;
     }
      .nav-link {
-        padding:0 40px !important;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
         
 
     }
